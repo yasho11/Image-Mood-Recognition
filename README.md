@@ -25,8 +25,7 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-directory>
+    git clone <https://github.com/yasho11/Image-Mood-Recognition.git>
     ```
 
 2.  **Create Virtual Environment:**
