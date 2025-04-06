@@ -1,0 +1,57 @@
+# --- Virtual Environment ---
+# Ignore the virtual environment folder specified by the user
+/myenv/
+# Also ignore other common virtual environment names
+/venv/
+/.venv/
+/env/
+/.env/
+/env.bak/
+/venv.bak/
+
+# --- Python Cache ---
+# Ignore Python bytecode files and cache directories
+*.pyc
+__pycache__/
+.pytest_cache/
+*.pyo
+
+# --- Data ---
+# Ignore the images data directory as requested
+/images/
+
+# --- Trained Models ---
+# Ignore large trained model files (users should place their trained models here)
+*.keras
+*.h5
+*.pb
+
+# --- Operating System Files ---
+# Ignore macOS system files
+.DS_Store
+# Ignore Windows thumbnail cache
+Thumbs.db
+
+# --- IDE / Editor Files ---
+# Ignore configurations for common IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- Build / Distribution ---
+/build/
+/dist/
+/*.egg-info/
+/downloads/
+/htmlcov/
+.cache/
+.coverage
+.tox/
+
+# --- Logs ---
+*.log
+
+# --- Secrets (Optional - Uncomment if you use .env for secrets) ---
+# *.env
+# .env*
