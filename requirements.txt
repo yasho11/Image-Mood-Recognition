@@ -1,0 +1,20 @@
+# Core Libraries
+numpy
+pandas
+opencv-contrib-python
+Pillow
+tqdm
+
+# Machine Learning & Deep Learning
+tensorflow
+keras
+scikit-learn
+
+# Jupyter Notebook for development
+notebook
+jupyter
+
+# Streamlit and related tools
+streamlit
+streamlit-webrtc
+av
